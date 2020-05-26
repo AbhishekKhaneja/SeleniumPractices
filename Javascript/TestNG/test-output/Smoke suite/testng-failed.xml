@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Smoke suite]">
+  <test name="Smoke test(failed)">
+    <classes>
+      <class name="TestNG.Tcase">
+        <methods>
+          <include name="closeEnvironment"/>
+          <include name="environSetup"/>
+          <include name="login"/>
+          <include name="flightbook2"/>
+          <include name="clickonbutton"/>
+        </methods>
+      </class> <!-- TestNG.Tcase -->
+    </classes>
+  </test> <!-- Smoke test(failed) -->
+</suite> <!-- Failed suite [Smoke suite] -->

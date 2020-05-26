@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Title Test]]>
+    </line>
+    <line>
+      <![CDATA[Title Test]]>
+    </line>
+    <line>
+      <![CDATA[Title Test]]>
+    </line>
+    <line>
+      <![CDATA[Title Test]]>
+    </line>
+  </reporter-output>
+  <suite name="Test.TestGuru99login" duration-ms="9441" started-at="2018-05-14T07:11:48Z" finished-at="2018-05-14T07:11:57Z">
+    <groups>
+      <group name="A">
+        <method signature="TestGuru99login.test_home_page_appear_correct()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="test_home_page_appear_correct" class="Test.TestGuru99login"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="TestGuru99login.Test()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="Test" class="Test.TestGuru99login"/>
+      </group> <!-- B -->
+    </groups>
+    <test name="Command line test" duration-ms="9441" started-at="2018-05-14T07:11:48Z" finished-at="2018-05-14T07:11:57Z">
+      <class name="Test.TestGuru99login">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="Setup" is-config="true" duration-ms="9264" started-at="2018-05-14T12:41:48Z" finished-at="2018-05-14T12:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="Test" duration-ms="5" started-at="2018-05-14T12:41:57Z" finished-at="2018-05-14T12:41:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="test_home_page_appear_correct()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="test_home_page_appear_correct" duration-ms="99" started-at="2018-05-14T12:41:57Z" finished-at="2018-05-14T12:41:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_home_page_appear_correct -->
+        <test-method status="PASS" signature="test_home_page_appear_correct()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="test_home_page_appear_correct" duration-ms="21" started-at="2018-05-14T12:41:57Z" finished-at="2018-05-14T12:41:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_home_page_appear_correct -->
+        <test-method status="PASS" signature="test_home_page_appear_correct()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="test_home_page_appear_correct" duration-ms="22" started-at="2018-05-14T12:41:57Z" finished-at="2018-05-14T12:41:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_home_page_appear_correct -->
+        <test-method status="PASS" signature="test_home_page_appear_correct()[pri:0, instance:Test.TestGuru99login@2812cbfa]" name="test_home_page_appear_correct" duration-ms="18" started-at="2018-05-14T12:41:57Z" finished-at="2018-05-14T12:41:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_home_page_appear_correct -->
+      </class> <!-- Test.TestGuru99login -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Test.TestGuru99login -->
+</testng-results>

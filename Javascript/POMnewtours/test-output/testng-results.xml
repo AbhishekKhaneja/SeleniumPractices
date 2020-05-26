@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25905" started-at="2018-01-15T14:42:56Z" finished-at="2018-01-15T14:43:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25905" started-at="2018-01-15T14:42:56Z" finished-at="2018-01-15T14:43:22Z">
+      <class name="testnewtours.testflightfinder">
+        <test-method status="PASS" signature="flightfinder()[pri:0, instance:testnewtours.testflightfinder@2b98378d]" name="flightfinder" duration-ms="13297" started-at="2018-01-15T20:13:08Z" finished-at="2018-01-15T20:13:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightfinder -->
+      </class> <!-- testnewtours.testflightfinder -->
+      <class name="testnewtours.testloginpage">
+        <test-method status="PASS" signature="Login()[pri:0, instance:testnewtours.testloginpage@18be83e4]" name="Login" duration-ms="12562" started-at="2018-01-15T20:12:56Z" finished-at="2018-01-15T20:13:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- testnewtours.testloginpage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

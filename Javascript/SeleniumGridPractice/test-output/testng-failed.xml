@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="SelelniumGridPrac.SeleniumGridPrac">
+        <methods>
+          <include name="Test3"/>
+          <include name="Test4"/>
+          <include name="Test1"/>
+          <include name="Test2"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- SelelniumGridPrac.SeleniumGridPrac -->
+      <class name="SelelniumGridPrac.SeleniumGridPrac1">
+        <methods>
+          <include name="Test1"/>
+          <include name="Test4"/>
+          <include name="Test2"/>
+          <include name="Test3"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- SelelniumGridPrac.SeleniumGridPrac1 -->
+      <class name="SelelniumGridPrac.SeleniumGridPrac2">
+        <methods>
+          <include name="Test1"/>
+          <include name="aftertest"/>
+          <include name="Test3"/>
+          <include name="Test2"/>
+          <include name="Test4"/>
+        </methods>
+      </class> <!-- SelelniumGridPrac.SeleniumGridPrac2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

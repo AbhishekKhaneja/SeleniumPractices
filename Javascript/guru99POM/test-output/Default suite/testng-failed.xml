@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <groups>
+      <run>
+        <include name="A"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="test.TestGuru99login">
+        <methods>
+          <include name="test_home_page_appear_correct"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- test.TestGuru99login -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

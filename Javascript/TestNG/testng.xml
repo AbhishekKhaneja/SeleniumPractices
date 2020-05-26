@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan department">
+<listeners>
+<listener class-name="TestNG.Listeners"/>
+</listeners>
+ <test thread-count="5" name="Personal Loan">
+    <classes>
+      <class name="TestNG.Day1">
+      <methods>
+  <include name="Demo"></include>
+  </methods>
+  </class>
+        <class name="TestNG.Day2"/>
+    </classes>
+  </test>
+  
+  <test name="Carloan"> <!-- Test -->
+    <parameter name="URL" value ="abhishek.khaneja.com"/>
+    <parameter name="KEY" value ="Key value"/>
+  <classes>
+  <class name="TestNG.Day3">
+  <methods>
+  <exclude name="mobileloginCarloan"></exclude>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

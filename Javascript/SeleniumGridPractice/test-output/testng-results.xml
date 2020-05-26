@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49614" started-at="2018-01-13T07:57:40Z" finished-at="2018-01-13T07:58:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49614" started-at="2018-01-13T07:57:40Z" finished-at="2018-01-13T07:58:29Z">
+      <class name="SelelniumGridPrac.SeleniumGridPrac1">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac1@76f2b07d]" name="Test2" duration-ms="2" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac1@76f2b07d]" name="Test3" duration-ms="3" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac1@76f2b07d]" name="Test4" duration-ms="1" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+      </class> <!-- SelelniumGridPrac.SeleniumGridPrac1 -->
+      <class name="SelelniumGridPrac.SeleniumGridPrac2">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac2@704a52ec]" name="Test2" duration-ms="3" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac2@704a52ec]" name="Test3" duration-ms="1" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac2@704a52ec]" name="Test4" duration-ms="1" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+      </class> <!-- SelelniumGridPrac.SeleniumGridPrac2 -->
+      <class name="SelelniumGridPrac.SeleniumGridPrac">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac@1f57539]" name="Test1" is-config="true" duration-ms="20507" started-at="2018-01-13T13:27:40Z" finished-at="2018-01-13T13:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac1@76f2b07d]" name="Test1" is-config="true" duration-ms="16134" started-at="2018-01-13T13:28:00Z" finished-at="2018-01-13T13:28:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac2@704a52ec]" name="Test1" is-config="true" duration-ms="12848" started-at="2018-01-13T13:28:16Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac@1f57539]" name="Test2" duration-ms="7" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac@1f57539]" name="Test3" duration-ms="4" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac@1f57539]" name="Test4" duration-ms="5" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="FAIL" signature="Test5()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac@1f57539]" name="Test5" is-config="true" duration-ms="1" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerExceptionat SelelniumGridPrac.SeleniumGridPrac.Test5(SeleniumGridPrac.java:43)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:451)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)at org.testng.TestRunner.afterRun(TestRunner.java:725)at org.testng.TestRunner.run(TestRunner.java:509)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="SKIP" signature="Test5()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac1@76f2b07d]" name="Test5" is-config="true" duration-ms="0" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="SKIP" signature="Test5()[pri:0, instance:SelelniumGridPrac.SeleniumGridPrac2@704a52ec]" name="Test5" is-config="true" duration-ms="0" started-at="2018-01-13T13:28:29Z" finished-at="2018-01-13T13:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+      </class> <!-- SelelniumGridPrac.SeleniumGridPrac -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
